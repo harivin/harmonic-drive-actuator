@@ -1,0 +1,2 @@
+step,iq_cmd_A,iq_meas_A,torque_moteus_Nm,fet_C,pos_drift_deg
+1,0.5,0.4993,2.551,39.0,0.011

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harmonic-drive-actuator"
+version = "1.0.0"
+description = "Test and control code for a 50:1 strain wave actuator built around a ZXF17 gearbox"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Harish Pravin"}]
+dependencies = ["moteus>=0.3.70", "matplotlib>=3.5", "numpy>=1.22"]
+
+[tool.setuptools]
+packages = ["actuator", "bringup", "characterize", "control", "analysis"]

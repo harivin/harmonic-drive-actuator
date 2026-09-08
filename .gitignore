@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# staged for manual deletion, never commit
+_to_delete/
